@@ -6,7 +6,7 @@
     <title>Meu primeiro Programa</title>
     <style>
         body{
-            background-color: rgba(0, 0, 0, 0.938);
+            background-color: rgba(30, 162, 214, 0.938);
             color: white;
             font: normal 20px Arial
 
@@ -21,10 +21,11 @@
     <h1>Olá, Mundo</h1>
     <p>Ja me livrei da maldição</p>
     <script>
-    n1 = Number.parseInt(("Digite um número"))
-    pn2 = Number(("Digite outro número"))
-    soma = n1 + n2
-    window.alert("A soma dos valores é " + soma)
+        nome = window.prompt("Nome do aluno: ")
+        n1 = Number(window.prompt("Digite a primeira nota: "))
+        n2 = Number(window.prompt("Digite a segunda nota: "))
+        soma = (n1 + n2)/2
+        window.alert(`a media do aluno ${nome} é ${soma}`) 
     </script>
 </body>
 </html>
